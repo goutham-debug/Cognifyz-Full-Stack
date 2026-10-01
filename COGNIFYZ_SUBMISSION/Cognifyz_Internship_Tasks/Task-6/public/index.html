@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 6 - User Registration</title>
+</head>
+
+<body>
+
+    <h1>User Registration</h1>
+
+    <form action="/register" method="POST">
+
+        <input
+            type="text"
+            name="name"
+            placeholder="Enter name"
+            required
+        >
+
+        <br><br>
+
+        <input
+            type="email"
+            name="email"
+            placeholder="Enter email"
+            required
+        >
+
+        <br><br>
+
+        <input
+            type="password"
+            name="password"
+            placeholder="Enter password"
+            required
+        >
+
+        <br><br>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+    <p>
+        Already registered?
+        <a href="/login">Login</a>
+    </p>
+
+</body>
+</html>
